@@ -1,0 +1,32 @@
+:root {
+	--primary-color: rgb(246, 185, 52);
+}
+
+* {
+	/* margin: 0; */
+	/* padding: 0; */
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.6;
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+}
+
+a:link {
+	text-decoration: none;
+
+	color: var(--primary-color);
+	margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		max-width: 90%;
+		margin: auto;
+		padding: 20px;
+	}
+}
